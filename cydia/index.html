@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>PetitStrawberry's Repo</title>
+    <meta name="description" content="PetitStrawberry's repository" />
+
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+
+    <script>ons.bootstrap();</script>
+  </head>
+  <body>
+    <ons-page>
+      <ons-toolbar>
+        <div class="center">PetitStrawberry's Repo</div>
+      </ons-toolbar>
+      <ul class="list">
+        <li class="list-item list-item--tappable" onclick="fn.loadLink('cydia://url/https://cydia.saurik.com/api/share#?source=https://petitstrawberry.github.io/cydia')">
+          <div class="list-item__center" >
+            <button class="button--quiet" >Add repo to Cydia</button>
+          </div>
+        <li class="list-item list-item--tappable" onclick="fn.loadLink('https://twitter.com/petitstb')">
+          <div class="list-item__center">
+            <button class="button--quiet" >@petitstb</button>
+          </div>
+        </li>
+      </ul>
+    </ons-page>
+  </body>
+</html>

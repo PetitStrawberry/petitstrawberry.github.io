@@ -1,8 +1,0 @@
-Origin: PetitStrawberry Repo
-Label: PetitStrawberry's repo
-Suite: stable
-Version: 1.0
-Codename: strawberryrepo
-Architectures: iphoneos-arm
-Components: main
-Description: PetitStrawberry's Cydia Repository

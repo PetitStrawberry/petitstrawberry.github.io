@@ -3,17 +3,14 @@
 <html>
   <head>
    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
 
     <title>Depictions</title>   
 
-    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
-    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
-    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<link rel="stylesheet" href="css/ios7.min.css">
+	<script src="script/ios7.min.js"></script>
     
     <script src="script/depictions.js" type="text/javascript"></script>
 
@@ -25,38 +22,29 @@
     </script>
   </head>
   <body>
-    <ons-page>
-    <br>
-      <div class="list-title">Description</div>
-      <ons-list>
-         
-         <ons-list-item>
-         
-          <div class="center">
-            
-            <div class="list-item__subtitle">
-            <script type="text/javascript">
+    <main id="content">
+		<h2 role="header">Description</h2>
+		
+		<ul>
+			<li>
+				<script type="text/javascript">
            var html = readTextFile("depictions/"+package+".html");
            console.log(html)
            document.write(html);
          </script> 
-            </div>
-          </div>
-        </ons-list-item>
-       
-        <ons-list-header>Link</ons-list-header>
-        <ons-list-item tappable onclick="document.location='https://twitter.com/petitstb';">
-          <div class="left">
-            <img class="list-item__thumbnail" src="https://pbs.twimg.com/profile_images/1092187599068753920/dnlJni7y_400x400.jpg" alt="@petitstb">
-          </div>
-          <div class="center">
-            <div class="list-item__title">Twitter</div>
-            <div class="list-item__subtitle">@petitstb</div>
-          </div>
-        </ons-list-item>
-      </ons-list>
-      
- 
-    </one-page>
+			</li>
+
+			<li>
+				<a href="https://twitter.com/petitstb" target="_blank" role="button">Twitter</a>
+			</li>
+
+			
+		</ul>
+
+		<p role="footer">©2019 PetitStrawberry</p>
+	</main>
+	
+            
+            
   </body>
 </html>

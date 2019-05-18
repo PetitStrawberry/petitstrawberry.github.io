@@ -1,0 +1,93 @@
+{
+   "minVersion": "0.1",
+   "headerImage": "",
+   "tintColor": "#2cb1be",
+   "tabs": [
+      {
+         "tabname": "Details",
+         "views": [
+            {
+               "title": "HostsBlockerToggle",
+               "useBoldText": true,
+               "useBottomMargin": false,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "itemCornerRadius": 6,
+               "itemSize": "{160, 275.41333333333336}",
+               "screenshots": [],
+               "class": "DepictionScreenshotsView"
+            },
+            {
+               "markdown": "<b>CCToggle blocking Ads & harmful sites</b> <br><br>Support: iOS 12.x.x <br>Tested on: iPhone X, iOS 12.1.2<br><br>When this toggle is enabled, it blocks Ads & harmful sites by swapping '/etc/hosts'. <br><br><b>Thanks</b><br>StevenBlack<br>280blocker.net<br>hosts2ch",
+               "useSpacing": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "class": "DepictionSeparatorView"
+            },
+            {
+               "title": "Latest Version",
+               "class": "DepictionHeaderView"
+            },
+            {
+               "title": "Version",
+               "text": "0.0.3",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Released",
+               "text": "2019/05/19",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Price",
+               "text": "Free",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Developer",
+               "text": "PetitStrawberry",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Contact Support",
+               "action": "https://twitter.com/petitstb",
+               "class": "DepictionTableButtonView"
+            },
+            {
+               "spacing": 16,
+               "class": "DepictionSpacerView"
+            },
+            {
+               "spacing": 20,
+               "class": "DepictionSpacerView"
+            }
+         ],
+         "class": "DepictionStackView"
+      },
+      {
+         "tabname": "Changelog",
+         "views": [
+            {
+               "title": "0.0.1",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "\t\n\u2022 Initial Release",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/03/01</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            }
+         ],
+         "class": "DepictionStackView"
+      }
+   ],
+   "class": "DepictionTabView"
+}

@@ -59,6 +59,44 @@
          "tabname": "Changelog",
          "views": [
             {
+               "title": "0.0.3",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "\t\n\u2022 arm64e,Chimera support",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/05/19</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+              "class": "DepictionSeparatorView"
+            },
+            {
+               "title": "0.0.2",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "\t\n\u2022 Fixed not working for some users",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/03/17</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+              "class": "DepictionSeparatorView"
+            },
+            {
                "title": "0.0.1",
                "useBoldText": true,
                "useBottomMargin": true,

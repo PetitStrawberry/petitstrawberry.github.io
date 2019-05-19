@@ -21,7 +21,7 @@
             },
             {
                "title": "Version",
-               "text": "0.0.3",
+               "text": "0.0.4",
                "class": "DepictionTableTextView"
             },
             {
@@ -59,6 +59,25 @@
          "tabname": "Changelog",
          "views": [
             {
+               "title": "0.0.4",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<ul><li>Small bug fix</li></ul>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/05/19</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+              "class": "DepictionSeparatorView"
+            },
+            {
                "title": "0.0.3",
                "useBoldText": true,
                "useBottomMargin": true,
@@ -84,7 +103,7 @@
                "class": "DepictionSubheaderView"
             },
             {
-               "markdown": "\t\n\u2022 Fixed not working for some users",
+               "markdown": "<ul><li>Fixed not working for some users</li></ul>",
                "useSpacing": false,
                "class": "DepictionMarkdownView"
             },
@@ -103,7 +122,7 @@
                "class": "DepictionSubheaderView"
             },
             {
-               "markdown": "\t\n\u2022 Initial Release",
+               "markdown": "<ul><li>Initial Release</li></ul>",
                "useSpacing": false,
                "class": "DepictionMarkdownView"
             },

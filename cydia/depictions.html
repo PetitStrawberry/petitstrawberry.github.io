@@ -13,7 +13,8 @@
 	<script src="script/ios7.min.js"></script>
     
     <script src="script/depictions.js" type="text/javascript"></script>
-
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>  
+ 
     <script>
       
       var query_vars = getQueryVars();
@@ -28,7 +29,7 @@
 		<ul>
 			<li>
 				<script type="text/javascript">
-           var html = readTextFile("depictions/"+package+".md");
+           var html = marked(readTextFile("depictions/"+package+".md"));
            console.log(html)
            document.write(html);
          </script> 

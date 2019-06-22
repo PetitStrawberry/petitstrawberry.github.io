@@ -26,4 +26,51 @@
     <p role="footer">©2019 PetitStrawberry</p>
   </main>
 </body>
+  <head>
+   
+    <meta charset="utf-8">
+
+    <title>Depictions</title>   
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<link rel="stylesheet" href="css/ios7.min.css">
+	<script src="script/ios7.min.js"></script>
+    
+    <script src="script/depictions.js" type="text/javascript"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>  
+ 
+  </head>
+  <body>
+    <main id="content">
+		<h2 role="header">Description</h2>
+		
+		<ul>
+			<li>
+				<script type="text/javascript">
+					var query_vars = getQueryVars();
+					var package = query_vars['package'];
+					var md = readTextFile("depictions/" + package + ".md");
+					var html = marked(md);
+					
+					document.write(md);
+         </script> 
+			</li>
+
+			
+		</ul>
+
+		<h2 role="header">Link</h2>
+		
+		<ul>
+			<li>
+				<a href="https://twitter.com/petitstb" target="_blank" role="button">Twitter</a>
+			</li>
+             </ul>
+		<p role="footer">©2019 PetitStrawberry</p>
+	</main>
+	
+            
+            
+  </body>
 </html>

@@ -1,12 +1,12 @@
-<b>CCToggle blocking Ads & harmful sites</b> <br>
-<br>
-Support: iOS 12.x.x <br>
-Tested on: iPhone X, iOS 12.1.2<br>
-<br>
+## CCToggle blocking Ads & harmful sites
+
+Support: iOS 12.x.x  
+Tested on: iPhone X, iOS 12.1.2  
+
 When this toggle is enabled, it blocks Ads & harmful sites by swapping 
-'/etc/hosts'. <br>
-<br>
-<b>Thanks</b><br>
-StevenBlack<br>
-280blocker.net<br>
+'/etc/hosts'. 
+
+### Thanks
+StevenBlack  
+280blocker.net   
 hosts2ch

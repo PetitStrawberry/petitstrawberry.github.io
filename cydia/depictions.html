@@ -19,7 +19,8 @@
       
       var query_vars = getQueryVars();
       var package = query_vars['package'];
-       
+      var md = readTextFile("depictions/" + package + ".md");
+      var html = marked(md);
     </script>
   </head>
   <body>
@@ -29,7 +30,7 @@
 		<ul>
 			<li>
 				<script type="text/javascript">
-					var html = readTextFile("https://petitstrawberry.github.io/cydia/depictions/" + package + ".md");
+					
 					
 					document.write(html);
          </script> 

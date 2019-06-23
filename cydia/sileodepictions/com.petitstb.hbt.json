@@ -20,6 +20,9 @@
                "class": "DepictionHeaderView"
             },
             {
+               "class":"BeginingOfTable"
+            },
+            {
                "title": "Version",
                "text": "0.0.4",
                "class": "DepictionTableTextView"
@@ -38,6 +41,9 @@
                "title": "Developer",
                "text": "PetitStrawberry",
                "class": "DepictionTableTextView"
+            },
+            {
+               "class": "EndOfTable"
             },
             {
                "title": "Contact Support",
@@ -65,7 +71,7 @@
                "class": "DepictionSubheaderView"
             },
             {
-               "markdown": "<ul><li>Small bug fix</li></ul>",
+               "markdown": "<div id='inline'><ul><li>Small bug fix</li></ul></div>",
                "useSpacing": false,
                "class": "DepictionMarkdownView"
             },

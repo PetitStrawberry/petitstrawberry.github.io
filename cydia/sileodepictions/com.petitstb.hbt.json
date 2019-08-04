@@ -8,7 +8,7 @@
          "views": [
             
             {
-               "markdown": "<b>CCToggle blocking Ads & harmful sites</b><br><br>When this toggle is enabled, it blocks Ads & harmful sites in all apps. <br><br>Support: iOS 12.x.x <br>Tested on: iPhone X, iOS 12.1.2<br><br><br><font color='red'><b>Require</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br><br><b>Thanks</b><br>StevenBlack<br>280blocker.net<br>hosts2ch",
+               "markdown": "<b>CCToggle blocking Ads & harmful sites</b><br><br>When this toggle is enabled, it blocks Ads & harmful sites in all apps. <br><br>Support: iOS 12.x.x <br>Tested on: iPhone X, iOS 12.1.2<br><br><font color='red'><b>Require</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br><br><b>Thanks</b><br>StevenBlack<br>280blocker.net<br>hosts2ch",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },

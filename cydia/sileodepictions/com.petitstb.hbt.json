@@ -23,11 +23,6 @@
                "class":"BeginingOfTable"
             },
             {
-               "title": "Compatibility",
-               "text": "iOS 12.0 or later (arm64/arm64e)",
-               "class": "DepictionTableTextView"
-            },
-            {
                "title": "Version",
                "text": "0.0.4",
                "class": "DepictionTableTextView"
@@ -35,6 +30,11 @@
             {
                "title": "Released",
                "text": "2019/05/19",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Compatibility",
+               "text": "iOS 12.0 or later (arm64/arm64e)",
                "class": "DepictionTableTextView"
             },
             {

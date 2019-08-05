@@ -8,7 +8,7 @@
          "views": [
 
             {
-               "markdown": "<b>Goodbye annoying camera on Twitter app!</b><br><br>Disable swipe left gestures for camera on the timeline.<br><br>なんとも忌々しい「左スワイプでカメラ起動」を無効化します。<br><br>Support: Twitter v7.53~ <br>Tested on: iPhone X, iOS 12.1.2",
+               "markdown": "<b>Compatible with Twitter 7.53 or later></b><br><br>Disable swipe left gestures for camera on the timeline<br><br>なんとも忌々しい「左スワイプでカメラ起動」を無効化します。",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },
@@ -30,6 +30,11 @@
             {
                "title": "Released",
                "text": "2019/08/05",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Compatibility",
+               "text": "iOS 11.0 or later",
                "class": "DepictionTableTextView"
             },
             {

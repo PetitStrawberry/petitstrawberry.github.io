@@ -1,0 +1,3 @@
+#!/bin/sh
+apt-ftparchive packages ./debs > Packages
+gzip Packages

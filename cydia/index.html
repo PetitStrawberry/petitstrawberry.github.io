@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="my-app">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -9,20 +9,22 @@
     <title>PetitStrawberry's Repo</title>
     <meta name="description" content="PetitStrawberry's repository" />
 
-    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
-    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
-    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link rel="stylesheet" href="css/onsenui.css">
+    <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    <script src="script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/angular-onsenui.min.js"></script>
 
-    <script>ons.bootstrap();</script>
+    <script src="script/common.js" type="text/javascript"></script>
+    <script src="script/featured.js" type="text/javascript"></script>
+
   </head>
   <body>
-    <ons-page>
+    <ons-page ng-contoller="MainRepoPageController">
       <ons-toolbar>
         <div class="center">PetitStrawberry's Repo</div>
       </ons-toolbar>
-
-
-      <ul class="list">
+      <ons-list>
         <ons-list-item tappable onclick="document.location='cydia://url/https://cydia.saurik.com/api/share#?source=https://petitstrawberry.github.io/cydia';">
           <div class="left">
             <img class="list-item__thumbnail" src="CydiaIcon.png">
@@ -32,7 +34,7 @@
           </div>
         </ons-list-item>
 
-        <ons-list-header>Link</ons-list-header>
+        <ons-list-header>Contact</ons-list-header>
         <ons-list-item tappable onclick="document.location='https://twitter.com/petitstb';">
           <div class="left">
             <img class="list-item__thumbnail" src="Twitter.png" alt="@petitstb">
@@ -43,6 +45,19 @@
           </div>
         </ons-list-item>
 
+        <ons-list-header>Featured Tweaks</ons-list-header>
+        <ons-list-item modifier="chevron">
+            
+        </ons-list-item>
+      </ons-list>
+      {{msg}}
     </ons-page>
+    <script>
+      var module = angular.module('my-app', ['onsen']);
+      module.controller('MainRepoPageController',function($scope){
+        $scope.featured = obj_from_json(readTextFile("featured.json")).Featured;
+        $scope.msg = "Hello";
+      }) ;
+    </script>
   </body>
 </html>

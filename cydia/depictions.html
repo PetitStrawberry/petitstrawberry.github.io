@@ -6,6 +6,7 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
   <link rel="stylesheet" href="css/ios7.min.css">
   <script src="script/ios7.min.js"></script>
+  <script src="script/common.js" type="text/javascript"></script>
   <script src="script/depictions.js" type="text/javascript"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
   <script>
@@ -19,9 +20,8 @@
     <script type="text/javascript">
       var html = html_from_depiction("sileodepictions/"+ package + ".json");
       if (navigator.userAgent.indexOf("Cydia") == -1){
-        html = "<ul><li><a href='cydia://url/https://cydia.saurik.com/api/share#?source=https://petitstrawberry.github.io/cydia/&package="+package+"'>Open in Sileo or Cydia</a></li></ul>" + html;
+        html = "<ul><li><a href='cydia://url/https://cydia.saurik.com/api/share#?source=https://petitstrawberry.github.io/cydia/&package="+ package +"'>Open in Sileo or Cydia</a></li></ul>" + html;
       }
-
       document.write(html);
     </script>
 

@@ -18,15 +18,14 @@
 
     <script type="text/javascript">
       var html = html_from_depiction("sileodepictions/"+ package + ".json");
+      if (navigator.userAgent.indexOf("Cydia")){
+        html = "<ul><li><a href='cydia://url/https://cydia.saurik.com/api/share#?source=https://petitstrawberry.github.io/cydia/&package="+package+"'>Open in Sileo or Cydia</a></li></ul>" + html;
+      }
+
       document.write(html);
     </script>
 
-    <p role="footer">
-      <script>
-        document.write(navigator.userAgent);
-      </script>
-      ©2019 PetitStrawberry
-    </p>
+    <p role="footer">©2019 PetitStrawberry</p>
   </main>
 </body>
 </html>

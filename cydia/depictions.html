@@ -18,9 +18,15 @@
 
     <script type="text/javascript">
       var html = html_from_depiction("sileodepictions/"+ package + ".json");
-      				document.write(html);
+      document.write(html);
     </script>
-    <p role="footer">©2019 PetitStrawberry</p>
+
+    <p role="footer">
+      <script>
+        document.write(navigator.userAgent);
+      </script>
+      ©2019 PetitStrawberry
+    </p>
   </main>
 </body>
 </html>

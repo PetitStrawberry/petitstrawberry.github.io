@@ -9,11 +9,11 @@
     <title>PetitStrawberry's Repo</title>
     <meta name="description" content="PetitStrawberry's repository" />
 
-    <link rel="stylesheet" href="css/onsenui.css">
-    <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
     <script src="script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-    <script src="js/onsenui.min.js"></script>
-    <script src="js/angular-onsenui.min.js"></script>
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <script src="https://unpkg.com/onsenui/js/angular-onsenui.min.js"></script>
 
     <script src="script/common.js" type="text/javascript"></script>
     <script src="script/featured.js" type="text/javascript"></script>
@@ -47,16 +47,15 @@
 
         <ons-list-header>Featured Tweaks</ons-list-header>
         <ons-list-item modifier="chevron">
-            
+            Unavailable
         </ons-list-item>
       </ons-list>
-      {{msg}}
+
     </ons-page>
     <script>
       var module = angular.module('my-app', ['onsen']);
       module.controller('MainRepoPageController',function($scope){
-        $scope.featured = obj_from_json(readTextFile("featured.json")).Featured;
-        $scope.msg = "Hello";
+        $scope.featured = obj_from_json(readTextFile("featured.json")).Feature;
       }) ;
     </script>
   </body>

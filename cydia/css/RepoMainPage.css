@@ -1,0 +1,28 @@
+#add-repo-box #add-repo div {
+    max-width: 400px;
+    margin: 0 auto
+}
+
+#add-repo-box #add-repo img {
+    float: left;
+    margin-right: 16px
+}
+
+#add-repo-box #add-repo p {
+    margin: 2px 0;
+    padding: 0;
+}
+
+.add-repo-bannar-space {
+    display: block;
+    clear: both;
+}
+
+
+#add-repo-box a {
+    color: green;
+}
+
+#featured a {
+    color: green;
+}

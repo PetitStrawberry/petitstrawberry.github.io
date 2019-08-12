@@ -4,6 +4,7 @@
    "tintColor": "#2cb1be",
    "title": "ByeAnoyingCamera",
    "description": "Disable swipe left camera on Twitter app",
+   "price": "Free",
    "tabs": [
       {
          "tabname": "Details",

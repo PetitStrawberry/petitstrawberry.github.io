@@ -7,14 +7,10 @@
       {
          "tabname": "Details",
          "views": [
-            
             {
                "markdown": "<b>CCToggle blocking Ads & harmful sites</b><br><br>When this toggle is enabled, it blocks Ads & harmful sites in all apps. <br><br><font color='red'><b>Requires</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br><br><b>Thanks</b><br>StevenBlack<br>280blocker.net<br>hosts2ch",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
-            },
-            {
-               "class": "DepictionSeparatorView"
             },
             {
                "title": "Latest Version",

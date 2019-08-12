@@ -4,6 +4,7 @@
    "tintColor": "#2cb1be",
    "title": "HostsBlockerToggle",
    "description": "CCToggle Blocking Ads & harmful site",
+   "price": "Free",
    "tabs": [
       {
          "tabname": "Details",

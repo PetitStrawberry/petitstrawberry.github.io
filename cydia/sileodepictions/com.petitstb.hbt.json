@@ -13,6 +13,9 @@
                "class": "DepictionMarkdownView"
             },
             {
+               "class": "DepictionSeparatorView"
+            },
+            {
                "title": "Latest Version",
                "class": "DepictionHeaderView"
             },

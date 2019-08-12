@@ -1,12 +1,14 @@
 function html_from_depiction(package) {
-    var depiction = obj_from_json(readTextFile(package));
+    var depiction = obj_from_json(readTextFile("sileodepictions/" + package + ".json"));
+    var title = depiction.title
+    var detail = depiction.description
     var h = `
-            <div class="left">
-                <img class="list-item__thumbnail" src="Twitter.png" alt="@petitstb">
-            </div>
-            <div class="center">
-                <div class="list-item__title">'` + package + `</div>
-                <div class="list-item__subtitle">@petitstb</div>
-            </div>`;
-    return "hi";
+            <li>
+                <a href="depictions.html?package=`+ package + `" role="button">
+                    `+ title + `
+                    <p>`+ detail + `</p>
+                </a>
+            </li>
+            `;
+    return h;
 }

@@ -9,7 +9,7 @@ function html_from_depiction(package) {
                     <table width="100%">
                         <tr>
                             <td>`+ title + `</td>
-                            <td align="left" rowspan="2"><p style="color: #999; font-size: 13px;">` + price + `</p></td>
+                            <td align="right" rowspan="2"><p style="color: #999; font-size: 13px;">` + price + `</p></td>
                         </tr>
                         <tr>
                             <td><p>` + detail + `</p></td>

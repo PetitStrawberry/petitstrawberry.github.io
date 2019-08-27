@@ -26,12 +26,12 @@
             },
             {
                "title": "Version",
-               "text": "0.0.4",
+               "text": "0.0.5",
                "class": "DepictionTableTextView"
             },
             {
                "title": "Released",
-               "text": "2019/05/19",
+               "text": "2019/08/28",
                "class": "DepictionTableTextView"
             },
             {
@@ -71,6 +71,25 @@
       {
          "tabname": "Changelog",
          "views": [
+            {
+               "title": "0.0.5",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<div id='inline'><ul><li>Provisonal fix for problems on iOS 12.4</li></ul></div>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/08/28</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "class": "DepictionSeparatorView"
+            },
             {
                "title": "0.0.4",
                "useBoldText": true,

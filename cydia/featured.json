@@ -1,6 +1,7 @@
 {
     "Featured" : [
         { "package" : "com.petitstb.hbt"},
+        { "package" : "com.petitstb.customhomebarx"},
         { "package" : "com.petitstb.byeannoyingcamera"},
         { "package" : "com.petitstb.tinyhomebarx"}
     ]

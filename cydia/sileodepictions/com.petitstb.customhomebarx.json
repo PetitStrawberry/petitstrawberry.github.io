@@ -10,7 +10,7 @@
           "tabname": "Details",
           "views": [
              {
-                "markdown": "<b>Customize the HomeBar</b><br><br><b>Features</b><br>・Customize the HomeBar's width and height<br>・Use a custom image as the HomeBar<br>・Customize the custom image's alpha and scale, position<br><br>Sample home icon <a href='../../box/ios/customhomebarx-sample/homeicon@3x.png'>here</a><br><br>Compatible with iPhone X series<br>Maybe it also works for LittleX and HomeGesture.<br><br><font color='red'><b>Requires</b></font><br>libimagepicker (<a href='https://repo.packix.com'>https://repo.packix.com</a>)<br><br><b>Thanks</b><br>Muirey03 (libimagepicker)",
+                "markdown": "<b>Customize the HomeBar</b><br><br><b>Features</b><br>・Customize the HomeBar's width and height<br>・Use a custom image as the HomeBar<br>・Customize the custom image's alpha and scale, position<br><br>Sample home icon is <a href='../../box/ios/customhomebarx-sample/homeicon@3x.png'>here</a><br><br>Compatible with iPhone X series<br>Maybe it also works for LittleX and HomeGesture.<br><br><font color='red'><b>Requires</b></font><br>libimagepicker (<a href='https://repo.packix.com'>https://repo.packix.com</a>)<br><br><b>Thanks</b><br>Muirey03 (libimagepicker)",
                 "useSpacing": true,
                 "class": "DepictionMarkdownView"
              },

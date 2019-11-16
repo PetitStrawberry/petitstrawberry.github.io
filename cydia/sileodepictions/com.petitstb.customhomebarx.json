@@ -78,7 +78,7 @@
                 "class": "DepictionSubheaderView"
              },
              {
-                "markdown": "<div id='inline'><ul><li>iOS13 support</li></ul></div>",
+                "markdown": "<div id='inline'><ul><li>iOS 13 support</li></ul></div>",
                 "useSpacing": false,
                 "class": "DepictionMarkdownView"
              },

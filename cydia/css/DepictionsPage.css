@@ -1,0 +1,42 @@
+.mobile-scroll {width: 100%; overflow-x: scroll;}
+
+#screenshots figure{
+  margin: 0;
+  display: none;
+}
+#screenshots figure:target{
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+#screenshots figure:target #overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  color: inherit;
+}
+#screenshots figure:target img{
+  animation: fadein .3s;
+}
+@keyframes fadein{
+  0%{
+    transform: scale(0.2);
+    opacity: 0.2;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}

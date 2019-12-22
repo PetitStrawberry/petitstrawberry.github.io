@@ -1,6 +1,7 @@
 function html_from_depiction(fileName) {
   var depiction = obj_from_json(readTextFile(fileName)).tabs;
   var h = '';
+  var h_tmp = '';
 
   for (var i in depiction) {
     if (typeof depiction[i].tabname !== 'undefind') {
@@ -25,6 +26,24 @@ function html_from_depiction(fileName) {
         if (depiction[i].views[k].class == 'DepictionTableButtonView') {
           h = h + '<li><a href="' + depiction[i].views[k].action + '" target="_blank" role="button">' + depiction[i].views[k].title + '</a></li>';
         };
+        
+        if (depiction[i].views[k].class == 'DepictionScreenshotsView') {
+          h_tmp = '';
+          h = h + '<div id="screenshots"><div class="mobile-scroll"><table cellspacing="15">';
+          for (var l in depiction[i].views[k].screenshots) {
+            h = h + '<td>' + '<a href="#figure'+ String(l) + '"><image src="' + depiction[i].views[k].screenshots[l].url + '" height=284 style="border-radius: ' + depiction[i].views[k].itemCornerRadius + 'px"></a></td>';
+            h_tmp = h_tmp + '<figure id="figure'+String(l)+`">
+                               <a id="overlay" href="#overlay">
+                                 <image src="` + depiction[i].views[k].screenshots[l].url + ` " style="width: 90%; height: 90%; object-fit: contain;">
+                               </a>
+                             </figure>
+                             `;
+          };
+          h = h + '</table></div>'+h_tmp+'</div>';
+          
+          
+        };
+        
         if (depiction[i].views[k].class == 'DepictionSeparatorView') {
           h = h + '<hr>';
         };

@@ -10,7 +10,39 @@
          "tabname": "Details",
          "views": [
             {
-               "markdown": "<b>CCToggle blocking Ads & harmful sites</b><br><br>When this toggle is enabled, it blocks Ads & harmful sites in all apps. <br><br><font color='red'><b>Requires</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br><br><b>Thanks</b><br>StevenBlack<br>280blocker.net<br>hosts2ch",
+               "markdown": "<b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
+               "useSpacing": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "class": "DepictionScreenshotsView",
+               "itemCornerRadius": 12,
+               "itemSize": "{160, 284.44444444444}",
+               "screenshots": [
+                  {
+                     "accessibilityText": "Screenshot",
+                     "url": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_1.jpg",
+                     "fullSizeURL": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_1.jpg"
+                  },
+                  {
+                     "accessibilityText": "Screenshot",
+                     "url": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_2.jpg",
+                     "fullSizeURL": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_2.jpg"
+                  },
+                  {
+                     "accessibilityText": "Screenshot",
+                     "url": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_3.jpg",
+                     "fullSizeURL": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_3.jpg"
+                  },
+                  {
+                     "accessibilityText": "Screenshot",
+                     "url": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_4.jpg",
+                     "fullSizeURL": "https://petitstrawberry.github.io/cydia/resources/com.petitstb.hbt/screenshot_4.jpg"
+                  }
+               ]
+            },
+            {
+               "markdown": "<b>Features</b><br>・Swapping /etc/hosts<br>・The application for editting hosts<br>・Action Extension for safari<br><br><font color='red'><b>Requires</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br>RocketBootstrap (<a href='http://rpetri.ch/repo'>http://rpetri.ch/repo</a>)<br>CCSupport<br><br><b>Thanks</b><br>StevenBlack<br>hosts2ch",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },
@@ -26,12 +58,12 @@
             },
             {
                "title": "Version",
-               "text": "0.0.5",
+               "text": "1.0.0",
                "class": "DepictionTableTextView"
             },
             {
                "title": "Released",
-               "text": "2019/08/28",
+               "text": "2019/12/22",
                "class": "DepictionTableTextView"
             },
             {
@@ -71,6 +103,22 @@
       {
          "tabname": "Changelog",
          "views": [
+            {
+               "title": "1.0.0",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<div id='inline'><ul><li>Improved hosts-swapping-system (Now hosts.swap is composed from hosts.user and hosts.ads)</li><li>iOS 13 support</li><li>Added HostsBlockerApp</li><li>Added the extension for safari</li></li><li>Changed HostsBlocker's icon</li><li>めっちゃバージョン飛んでるけど制作中に色々あったので気にしないで...</li></ul></div>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/12/22</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
             {
                "title": "0.0.5",
                "useBoldText": true,

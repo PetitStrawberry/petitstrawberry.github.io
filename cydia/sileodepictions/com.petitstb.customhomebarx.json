@@ -1,111 +1,111 @@
 {
-    "minVersion": "0.1",
-    "headerImage": "",
-    "tintColor": "#2cb1be",
-    "title": "CustomHomeBarX",
-    "description": "Customize the HomeBar",
-    "price": "Free",
-    "tabs": [
-       {
-          "tabname": "Details",
-          "views": [
-             {
-                "markdown": "<b>Customize the HomeBar</b><br><br><b>Features</b><br>・Customize the HomeBar's width and height<br>・Use a custom image as the HomeBar<br>・Customize the custom image's alpha and scale, position<br><br>Sample home icon is <a href='../../box/ios/customhomebarx-sample/homeicon@3x.png'>here</a><br><br>Compatible with iPhone X series<br>Maybe it also works for LittleX and HomeGesture.<br><br><font color='red'><b>Requires</b></font><br>libimagepicker (modified)<br><br><b>Thanks</b><br>Muirey03 (libimagepicker)",
-                "useSpacing": true,
-                "class": "DepictionMarkdownView"
-             },
-             {
-                "class": "DepictionSeparatorView"
-             },
-             {
-                "title": "Latest Version",
-                "class": "DepictionHeaderView"
-             },
-             {
-                "class": "BeginingOfTable"
-             },
-             {
-                "title": "Version",
-                "text": "1.1.0",
-                "class": "DepictionTableTextView"
-             },
-             {
-                "title": "Released",
-                "text": "2019/11/16",
-                "class": "DepictionTableTextView"
-             },
-             {
-                "title": "Compatibility",
-                "text": "iOS 12.0 or later",
-                "class": "DepictionTableTextView"
-             },
-             {
-                "title": "Price",
-                "text": "Free",
-                "class": "DepictionTableTextView"
-             },
-             {
-                "title": "Developer",
-                "text": "PetitStrawberry",
-                "class": "DepictionTableTextView"
-             },
-             {
-                "class": "EndOfTable"
-             },
-             {
-                "title": "Contact Support",
-                "action": "https://twitter.com/petitstb",
-                "class": "DepictionTableButtonView"
-             },
-             {
-                "spacing": 16,
-                "class": "DepictionSpacerView"
-             },
-             {
-                "spacing": 20,
-                "class": "DepictionSpacerView"
-             }
-          ],
-          "class": "DepictionStackView"
-       },
-       {
-          "tabname": "Changelog",
-          "views": [
-             {
-                "title": "1.1.0",
-                "useBoldText": true,
-                "useBottomMargin": true,
-                "class": "DepictionSubheaderView"
-             },
-             {
-                "markdown": "<div id='inline'><ul><li>iOS 13 support</li></ul></div>",
-                "useSpacing": false,
-                "class": "DepictionMarkdownView"
-             },
-             {
-                "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/11/16</small>",
-                "useRawFormat": true,
-                "class": "DepictionMarkdownView"
-             },
-             {
-                "title": "1.0.0",
-                "useBoldText": true,
-                "useBottomMargin": true,
-                "class": "DepictionSubheaderView"
-             },
-             {
-                "markdown": "<div id='inline'><ul><li>Initial Release</li></ul></div>",
-                "useSpacing": false,
-                "class": "DepictionMarkdownView"
-             },
-             {
-                "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/10/05</small>",
-                "useRawFormat": true,
-                "class": "DepictionMarkdownView"
-             }
-          ],
-          "class": "DepictionStackView"
-       }
-    ],
-    "class": "DepictionTabView"
- }
+   "minVersion": "0.1",
+   "headerImage": "",
+   "tintColor": "#2cb1be",
+   "title": "CustomHomeBarX",
+   "description": "Customize the HomeBar",
+   "price": "Free",
+   "tabs": [
+      {
+         "tabname": "Details",
+         "views": [
+            {
+               "markdown": "<b>Customize the HomeBar</b><br><br><b>Features</b><br>・Customize the HomeBar's width and height<br>・Use a custom image as the HomeBar<br>・Customize the custom image's alpha and scale, position<br><br>Sample home icon is <a href='../../box/ios/customhomebarx-sample/homeicon@3x.png'>here</a><br><br>Compatible with iPhone X series<br>Maybe it also works for LittleX and HomeGesture.<br><br><font color='red'><b>Requires</b></font><br>libimagepicker (modified)<br><br><b>Thanks</b><br>Muirey03 (libimagepicker)",
+               "useSpacing": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "class": "DepictionSeparatorView"
+            },
+            {
+               "title": "Latest Version",
+               "class": "DepictionHeaderView"
+            },
+            {
+               "class": "BeginingOfTable"
+            },
+            {
+               "title": "Version",
+               "text": "1.1.0",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Released",
+               "text": "2019/11/16",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Compatibility",
+               "text": "iOS 12.0 or later",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Price",
+               "text": "Free",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "title": "Developer",
+               "text": "PetitStrawberry",
+               "class": "DepictionTableTextView"
+            },
+            {
+               "class": "EndOfTable"
+            },
+            {
+               "title": "Contact Support",
+               "action": "https://twitter.com/petitstb",
+               "class": "DepictionTableButtonView"
+            },
+            {
+               "spacing": 16,
+               "class": "DepictionSpacerView"
+            },
+            {
+               "spacing": 20,
+               "class": "DepictionSpacerView"
+            }
+         ],
+         "class": "DepictionStackView"
+      },
+      {
+         "tabname": "Changelog",
+         "views": [
+            {
+               "title": "1.1.0",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<div id='inline'><ul><li>iOS 13 support</li></ul></div>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/11/16</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "title": "1.0.0",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<div id='inline'><ul><li>Initial Release</li></ul></div>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/10/05</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            }
+         ],
+         "class": "DepictionStackView"
+      }
+   ],
+   "class": "DepictionTabView"
+}

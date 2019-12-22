@@ -26,10 +26,10 @@ function html_from_depiction(fileName) {
         if (depiction[i].views[k].class == 'DepictionTableButtonView') {
           h = h + '<li><a href="' + depiction[i].views[k].action + '" target="_blank" role="button">' + depiction[i].views[k].title + '</a></li>';
         };
-        
+
         if (depiction[i].views[k].class == 'DepictionScreenshotsView') {
           h_tmp = '';
-          h = h + '<div id="screenshots"><div class="mobile-scroll"><table cellspacing="15">';
+          h = h + '<div id="screenshots"><div class="mobile-scroll"><table cellspacing="15" width=100%>';
           for (var l in depiction[i].views[k].screenshots) {
             h = h + '<td>' + '<a href="#figure'+ String(l) + '"><image src="' + depiction[i].views[k].screenshots[l].url + '" height=284 style="border-radius: ' + depiction[i].views[k].itemCornerRadius + 'px"></a></td>';
             h_tmp = h_tmp + '<figure id="figure'+String(l)+`">
@@ -40,10 +40,10 @@ function html_from_depiction(fileName) {
                              `;
           };
           h = h + '</table></div>'+h_tmp+'</div>';
-          
-          
+
+
         };
-        
+
         if (depiction[i].views[k].class == 'DepictionSeparatorView') {
           h = h + '<hr>';
         };

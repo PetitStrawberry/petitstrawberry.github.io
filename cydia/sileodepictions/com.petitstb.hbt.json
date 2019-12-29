@@ -10,7 +10,7 @@
          "tabname": "Details",
          "views": [
             {
-               "markdown": "<b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
+               "markdown": "<font color='red'><h1>Not Available Now</h1></font><b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },

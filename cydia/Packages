@@ -1,0 +1,70 @@
+Package: com.muirey03.libimagepicker
+Version: 1.0.5ps
+Architecture: iphoneos-arm
+Maintainer: PetitStrawberry
+Installed-Size: 168
+Filename: ./debs/com.muirey03.libimagepicker_1.0.5ps_iphoneos-arm.deb
+Size: 11768
+MD5sum: b2fe4caabdb7f408cbe647612083d8d0
+SHA1: 4439e28a0559d09209c220e4944ed92b09c81bcf
+SHA256: 09c3b9383207895edb0467cb33d40c227d521b1325e0ab9445c474d541ab82f0
+Section: System
+Description: A simple library for choosing images in preference bundles. This libimagepicker is modified by PetitStrawberry.
+Tag: role::developer
+Author: Muirey03(original) PetitStrawberry(modified)
+Name: libimagepicker (modified)
+
+Package: com.petitstb.byeannoyingcamera
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PetitStrawberry
+Installed-Size: 104
+Depends: firmware (>=11.0), mobilesubstrate
+Filename: ./debs/com.petitstb.byeannoyingcamera_1.0.0_iphoneos-arm.deb
+Size: 2896
+MD5sum: 483f6ae54820bf3b70adecd579b49752
+SHA1: 631427fc04cc550d742ad7062f56b3097bb9eefd
+SHA256: 231ad19bd46692b8608aafcc5b548bacecd220f22dfd975276637ea6924b0235
+Section: Tweaks
+Description: Disable swipe left camera on Twitter app.
+Author: PetitStrawberry
+Depiction: https://petitstrawberry.github.io/cydia/depictions.html?package=com.petitstb.byeannoyingcamera
+Name: ByeAnnoyingCamera
+Sileodepiction: https://petitstrawberry.github.io/cydia/sileodepictions/com.petitstb.byeannoyingcamera.json
+
+Package: com.petitstb.customhomebarx
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PetitStrawberry
+Installed-Size: 416
+Depends: firmware (>=12.0), mobilesubstrate, com.muirey03.libimagepicker
+Filename: ./debs/com.petitstb.customhomebarx_1.1.0_iphoneos-arm.deb
+Size: 97912
+MD5sum: 94f802ba2de7020f08c184c854b3b9a8
+SHA1: 739ac5a873e59299d69c0a67dfe11b51f9e2bdc5
+SHA256: da88867c2d4a2154f8b425ccbdf27235503286b4307cbd1ba26f5649afc6776a
+Section: Tweaks
+Description: Customize the HomeBar
+Author: PetitStrawberry
+Depiction: https://petitstrawberry.github.io/cydia/depictions.html?package=com.petitstb.customhomebarx
+Name: CustomHomeBarX
+Sileodepiction: https://petitstrawberry.github.io/cydia/sileodepictions/com.petitstb.customhomebarx.json
+
+Package: com.petitstb.tinyhomebarx
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PetitStrawberry
+Installed-Size: 136
+Depends: firmware (>=11.0), mobilesubstrate
+Filename: ./debs/com.petitstb.tinyhomebarx_1.0.0_iphoneos-arm.deb
+Size: 2500
+MD5sum: 67208367c64c2d8336810fac86f61ad3
+SHA1: 871fdeab6e5aadd159d22a9a681a8288f2293a9b
+SHA256: 017a94bf70c3a6cc4417f62acb068e963c42f3381cbe623d3c950a1bd8d6399d
+Section: Tweaks
+Description: Make the Home Bar smaller
+Author: PetitStrawberry
+Depiction: https://petitstrawberry.github.io/cydia/depictions.html?package=com.petitstb.tinyhomebarx
+Name: TinyHomeBarX
+Sileodepiction: https://petitstrawberry.github.io/cydia/sileodepictions/com.petitstb.tinyhomebarx.json
+

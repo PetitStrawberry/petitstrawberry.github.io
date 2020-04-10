@@ -123,7 +123,7 @@
                "class": "DepictionSubheaderView"
             },
             {
-               "markdown": "<div id='inline'><ul><li>Bug fix/li></ul></div>",
+               "markdown": "<div id='inline'><ul><li>Bug fix</li></ul></div>",
                "useSpacing": false,
                "class": "DepictionMarkdownView"
             },

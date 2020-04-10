@@ -2,7 +2,7 @@
    "minVersion": "0.1",
    "headerImage": "",
    "tintColor": "#2cb1be",
-   "title": "HostsBlockerToggle",
+   "title": "HostsBlockerToggle (beta)",
    "description": "CCToggle Blocking Ads & harmful web pages",
    "price": "Free",
    "tabs": [
@@ -10,7 +10,7 @@
          "tabname": "Details",
          "views": [
             {
-               "markdown": "<font color='red'><h1>Not Available Now</h1></font><b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
+               "markdown": "<font color='red'><h3>This tweak is a beta version. Use at own risk.</h3></font><p>Tested on iPhone X iOS 13 (checkra1n, unc0ver) </p><br><b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },
@@ -50,6 +50,18 @@
                "class": "DepictionSeparatorView"
             },
             {
+               "title": "Disclaimer",
+               "class": "DepictionHeaderView"
+            },
+            {
+               "markdown": "<b>I AM NOT RESPONSIBLE FOR ANY DAMAGE OR LOSS CAUSED BY THE USE OF MY TWEAKS.<br>私のTweakを使って生じた損害や不利益については一切責任を負いません。</b>",
+               "useSpacing": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "class": "DepictionSeparatorView"
+            },
+            {
                "title": "Latest Version",
                "class": "DepictionHeaderView"
             },
@@ -58,12 +70,12 @@
             },
             {
                "title": "Version",
-               "text": "1.0.0",
+               "text": "1.0.2~beta",
                "class": "DepictionTableTextView"
             },
             {
                "title": "Released",
-               "text": "2019/12/22",
+               "text": "2019/04/10",
                "class": "DepictionTableTextView"
             },
             {
@@ -89,6 +101,7 @@
                "action": "https://twitter.com/petitstb",
                "class": "DepictionTableButtonView"
             },
+
             {
                "spacing": 16,
                "class": "DepictionSpacerView"
@@ -103,6 +116,22 @@
       {
          "tabname": "Changelog",
          "views": [
+            {
+               "title": "1.0.2~beta",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<div id='inline'><ul><li>Fixed Activation Loop</li><li>Updated hosts.ads</li></ul></div>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2020/04/10</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
             {
                "title": "1.0.0",
                "useBoldText": true,

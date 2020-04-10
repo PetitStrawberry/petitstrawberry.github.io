@@ -18,6 +18,18 @@
                "class": "DepictionSeparatorView"
             },
             {
+               "title": "Disclaimer",
+               "class": "DepictionHeaderView"
+            },
+            {
+               "markdown": "<b>I AM NOT RESPONSIBLE FOR ANY DAMAGE OR LOSS CAUSED BY THE USE OF MY TWEAKS.<br>私のTweakを使って生じた損害や不利益については一切責任を負いません。</b>",
+               "useSpacing": true,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "class": "DepictionSeparatorView"
+            },
+            {
                "title": "Latest Version",
                "class": "DepictionHeaderView"
             },

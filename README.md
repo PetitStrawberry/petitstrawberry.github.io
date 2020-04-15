@@ -1,2 +1,3 @@
 # petitstrawberry.github.io
-Repository for Cydia and Sileo https://petitstrawberry.github.io/cydia
+My repository for Cydia/Sileo <https://petitstrawberry.github.io/cydia>
+

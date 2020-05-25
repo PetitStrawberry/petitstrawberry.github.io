@@ -70,12 +70,12 @@
             },
             {
                "title": "Version",
-               "text": "1.0.3~beta",
+               "text": "1.0.4~beta",
                "class": "DepictionTableTextView"
             },
             {
                "title": "Released",
-               "text": "2020/04/10",
+               "text": "2020/05/25",
                "class": "DepictionTableTextView"
             },
             {
@@ -116,6 +116,22 @@
       {
          "tabname": "Changelog",
          "views": [
+            {
+               "title": "1.0.4~beta",
+               "useBoldText": true,
+               "useBottomMargin": true,
+               "class": "DepictionSubheaderView"
+            },
+            {
+               "markdown": "<div id='inline'><ul><li>Support iOS 13.5</li><li>Fix some bugs</li></ul></div>",
+               "useSpacing": false,
+               "class": "DepictionMarkdownView"
+            },
+            {
+               "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2020/04/10</small>",
+               "useRawFormat": true,
+               "class": "DepictionMarkdownView"
+            },
             {
                "title": "1.0.3~beta",
                "useBoldText": true,

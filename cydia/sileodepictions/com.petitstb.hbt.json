@@ -10,7 +10,7 @@
          "tabname": "Details",
          "views": [
             {
-               "markdown": "<font color='red'><h3>This tweak is a beta version. Use at your own risk.</h3></font><p>Tested on iPhone X iOS 13 (checkra1n, unc0ver) </p><br><b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
+               "markdown": "<font color='red'><h3>This tweak is a beta version. Use at your own risk.</h3></font><p>Tested on iPhone X iOS 13.5 (checkra1n, unc0ver) </p><br><b>CCToggle blocking Ads & harmful web pages</b><br><br>When this toggle is enabled, it blocks Ads & harmful web pages in all apps.",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },

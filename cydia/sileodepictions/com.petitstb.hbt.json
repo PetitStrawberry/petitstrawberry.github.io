@@ -42,7 +42,7 @@
                ]
             },
             {
-               "markdown": "<b>Features</b><br>・Swapping /etc/hosts<br>・The application for editting hosts<br>・Action Extension for safari<br><br><font color='red'><b>Requires</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br>RocketBootstrap (<a href='http://rpetri.ch/repo'>http://rpetri.ch/repo</a>)<br>CCSupport<br><br><b>Thanks</b><br>StevenBlack<br>hosts2ch",
+               "markdown": "<b>Features</b><br>・Swapping /etc/hosts<br>・The application for editting hosts<br>・Action Extension for safari<br><br><font color='red'><b>Requires</b></font><br>LetMeBlock (<a href='https://poomsmart.github.io/repo'>https://poomsmart.github.io/repo</a>)<br>CCSupport<br><br><b>Thanks</b><br>StevenBlack<br>hosts2ch",
                "useSpacing": true,
                "class": "DepictionMarkdownView"
             },

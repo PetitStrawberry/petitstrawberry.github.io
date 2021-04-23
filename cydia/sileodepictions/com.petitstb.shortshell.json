@@ -1,0 +1,107 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "",
+    "tintColor": "#2cb1be",
+    "title": "ShortShell",
+    "description": "Run shellscript on Shortcuts app!",
+    "price": "Free",
+    "tabs": [
+       {
+          "tabname": "Details",
+          "views": [
+             {
+                "markdown": "Run shellscript on Shortcuts app! なんもテストしてません。",
+                "useSpacing": true,
+                "class": "DepictionMarkdownView"
+             },
+             {
+                "class": "DepictionSeparatorView"
+             },
+             {
+                "title": "Disclaimer",
+                "class": "DepictionHeaderView"
+             },
+             {
+                "markdown": "<b>I AM NOT RESPONSIBLE FOR ANY DAMAGE OR LOSS CAUSED BY THE USE OF MY TWEAKS.<br>私のTweakを使って生じた損害や不利益については一切責任を負いません。</b>",
+                "useSpacing": true,
+                "class": "DepictionMarkdownView"
+             },
+             {
+                "class": "DepictionSeparatorView"
+             },
+             {
+                "title": "Latest Version",
+                "class": "DepictionHeaderView"
+             },
+             {
+                "class": "BeginingOfTable"
+             },
+             {
+                "title": "Version",
+                "text": "0.0.1",
+                "class": "DepictionTableTextView"
+             },
+             {
+                "title": "Released",
+                "text": "2021/04/23",
+                "class": "DepictionTableTextView"
+             },
+             {
+                "title": "Compatibility",
+                "text": "iOS 14.0 or later",
+                "class": "DepictionTableTextView"
+             },
+             {
+                "title": "Price",
+                "text": "Free",
+                "class": "DepictionTableTextView"
+             },
+             {
+                "title": "Developer",
+                "text": "PetitStrawberry",
+                "class": "DepictionTableTextView"
+             },
+             {
+                "class": "EndOfTable"
+             },
+             {
+                "title": "Contact",
+                "action": "https://twitter.com/petitstb_tweak",
+                "class": "DepictionTableButtonView"
+             },
+             {
+                "spacing": 16,
+                "class": "DepictionSpacerView"
+             },
+             {
+                "spacing": 20,
+                "class": "DepictionSpacerView"
+             }
+          ],
+          "class": "DepictionStackView"
+       },
+       {
+          "tabname": "Changelog",
+          "views": [
+             {
+                "title": "0.0.1",
+                "useBoldText": true,
+                "useBottomMargin": true,
+                "class": "DepictionSubheaderView"
+             },
+             {
+                "markdown": "<div id='inline'><ul><li>Initial Release</li></ul></div>",
+                "useSpacing": false,
+                "class": "DepictionMarkdownView"
+             },
+             {
+                "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019/05/19</small>",
+                "useRawFormat": true,
+                "class": "DepictionMarkdownView"
+             }
+          ],
+          "class": "DepictionStackView"
+       }
+    ],
+    "class": "DepictionTabView"
+ }
